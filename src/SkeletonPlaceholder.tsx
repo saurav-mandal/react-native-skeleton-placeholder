@@ -9,7 +9,7 @@ import {
   LayoutRectangle,
 } from "react-native";
 import MaskedView from "@react-native-masked-view/masked-view";
-import LinearGradient from "react-native-linear-gradient";
+import { LinearGradient } from "expo-linear-gradient";
 
 const SCREEN_WIDTH = Dimensions.get("window").width;
 
